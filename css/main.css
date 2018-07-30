@@ -1,7 +1,6 @@
 /* navigation */
 body{
     margin: 0;
-    
 }
 a{
     text-decoration: none;
@@ -28,7 +27,7 @@ a{
 }
 
 .greeting{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.349);
     width: 100%;
     padding: 15% 0;
     color: white;
@@ -38,6 +37,11 @@ a{
     background-position: center;
 }
 
+.greeting>img{
+    width: 20vh;
+    height: auto;
+    border-radius: 50%;
+}
 
 .container{
     display: flex;
