@@ -1,0 +1,60 @@
+/* navigation */
+body{
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1%;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+}
+.navLink{
+    margin-right: 10px;
+}
+
+.navLink:hover{
+    text-decoration: underline;
+}
+
+.greeting{
+    background-color: grey;
+    width: 100%;
+    padding: 15% 0;
+    color: white;
+    text-align: center;
+    background-image: url(/img/space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 16px;
+}
+
