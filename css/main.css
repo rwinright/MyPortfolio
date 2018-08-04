@@ -2,6 +2,7 @@
 body{
     margin: 0;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -37,6 +38,10 @@ a{
     background-image: url(/img/space.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.greeting>h1{
+    font-family: 'Orbitron', sans-serif;
 }
 
 .greeting>img{
