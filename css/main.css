@@ -1,7 +1,9 @@
 /* navigation */
 body{
     margin: 0;
+    height: 100%;
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -29,7 +31,7 @@ a{
 .greeting{
     background-color: rgba(128, 128, 128, 0.349);
     width: 100%;
-    padding: 15% 0;
+    padding: 5% 0;
     color: white;
     text-align: center;
     background-image: url(/img/space.jpg);
@@ -38,7 +40,7 @@ a{
 }
 
 .greeting>img{
-    width: 20vh;
+    width: 25vh;
     height: auto;
     border-radius: 50%;
 }
@@ -47,6 +49,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: center;
     text-align: center;
 }
 
@@ -59,6 +62,23 @@ a{
 .card{
     border: 1px solid black;
     border-radius: 3px;
-    padding: 16px;
+    padding: 1% 3%;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar{
+        padding: 3%;
+    }
+    .greeting{
+        padding: 15% 0;
+    }
+    .cards{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .card{
+        margin-bottom: 2%;
+    }
+    
+}
