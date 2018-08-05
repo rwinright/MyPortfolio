@@ -17,6 +17,7 @@ a{
     align-items: baseline;
     padding: 1%;
 }
+
 .navLinks{
     display: flex;
     flex-direction: row;
@@ -28,6 +29,12 @@ a{
 .navLink:hover{
     text-decoration: underline;
 }
+
+.active{
+    text-decoration: underline;
+}
+
+/* index content */
 
 .greeting{
     background-color: rgba(128, 128, 128, 0.349);
@@ -85,6 +92,5 @@ a{
     }
     .card{
         margin-bottom: 2%;
-    }
-    
+    }   
 }
