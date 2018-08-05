@@ -1,19 +1,47 @@
+h1{
+    text-align: center;
+}
+
 .boxContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 20%;
+    margin: 10% 0%;
 }
 
-.boxRight{
-    padding: 20%;
+.boxRight,.boxLeft>h2{
+    text-align: center;
+    color: white;
+}
+
+.boxRight, .boxLeft{
+    padding: 10%;
     border: 1px solid black;
     border-radius: 3px;
 }
 
 .boxLeft{
-    padding: 20%;
-    border: 1px solid black;
-    border-radius: 3px;
+    background-image: url('/img/web.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.boxRight{
+    background-image: url('/img/concert.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .boxContainer{
+        margin: auto;
+        flex-direction: column;
+        width: 75%;
+    } 
+    .boxRight, .boxLeft{
+        margin-bottom: 10%;
+        width:90%;
+    }
 }
