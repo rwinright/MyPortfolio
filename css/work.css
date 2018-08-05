@@ -1,19 +1,19 @@
 .boxContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin: 20%;
 }
 
 .boxRight{
-    padding: 10%;
+    padding: 20%;
     border: 1px solid black;
     border-radius: 3px;
 }
 
 .boxLeft{
-    padding: 10%;
+    padding: 20%;
     border: 1px solid black;
     border-radius: 3px;
 }
