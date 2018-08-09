@@ -53,6 +53,7 @@ sub{
     } 
     .boxRight, .boxLeft{
         margin-bottom: 10%;
+        padding: 20% 15%;
         width:90%;
     }
 }
