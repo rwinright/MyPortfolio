@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.container>p{
+    text-align: center;
+}
