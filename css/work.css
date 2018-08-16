@@ -2,11 +2,6 @@ h1{
     text-align: center;
 }
 
-sub{
-    text-align: center;
-    Margin: auto;
-}
-
 .boxContainer{
     display: flex;
     flex-direction: row;

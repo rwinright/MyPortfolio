@@ -1,55 +1,47 @@
-<!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>RW|DEV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>RW|DEV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
 
-<body>
+<body  ng-app="app">
+
     <div class="navbar">
         <div class="logo">
-            <a href="/index.html">RW</a>
+            <a href="#!/">RW</a>
         </div>
         <div class="navLinks">
             <div class="navLink">
-                <a href="/about.html">About</a>
+                <a href="!#/about">About</a>
             </div>
             <div class="navLink">
-                <a href="/work.html">Work</a>
+                <a href="!#/work">Work</a>
             </div>
             <div class="navLink">
-                <a href="/contact.html">Contact</a>
+                <a href="!#/contact">Contact</a>
             </div>
         </div>
     </div>
+    
+    <ng-view></ng-view>
 
-    <div class="greeting">
-        <h1>Roger Winright</h1>
-        <h2>Web Developer | Musician</h2>
-        <img src="img/rwrock.jpg" alt="Roger Winright" id="changeImg">
-    </div>
-    <div class="container">
-        <h2>My Portfolio</h2>
-        <div class="cards">
-            <a href="/work.html" class="card">
-                <p>My Work</p>
-            </a>
-            <a href="/contact.html" class="card">
-                <p>Contact</p>
-            </a>
-            <a class="card" href="/about.html">
-                <p>About Me</p>
-            </a>
-        </div>
-    </div>
-    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-route.js'></script>
+    <script src="module.js"></script>
+    <script src="Routing.js"></script>
+    <script src="/views/home.js"></script>
+    <script src="/views/about.js"></script>
+    <script src="/views/contact.js"></script>
+    <script src="/views/work.js"></script>
+    <script src="/views/webWork.js"></script>
+    <script src="service.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 90%; 
+}
+.project-title{
+    margin-left: 5%;
+}
+
+.project-description{
+    margin-left: 8%;
+}
+
+.left-project{
+    display: inline;
+    width: 70%;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+img{
+    
+}
