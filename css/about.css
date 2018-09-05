@@ -1,10 +1,18 @@
 h1{
     text-align: center;
+    margin: 8px;
 }
 
 .container{
     margin: auto;
-    width: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.content{
+    width: 60%;
 }
 
 .container>p{
@@ -14,7 +22,24 @@ h1{
 
 img{
     height: auto;
-    width: 45%;
+    width: 30%;
     border-radius: 5px;
-    margin: auto;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .content{
+        width: 90%;
+        margin: auto;
+    }
+    img{
+        width: 40%;
+        margin: auto;
+    }
 }
