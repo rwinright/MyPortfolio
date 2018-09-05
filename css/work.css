@@ -14,8 +14,8 @@ h1{
     text-align: center;
     color: white;
 }
-
-.boxRight, .boxLeft{
+/* Add boxLeft back later */
+.boxRight{
     display: block;
     padding: 10% 15%;
     border: 1px solid black;
