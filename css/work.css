@@ -18,8 +18,8 @@ h1{
 .boxRight, .boxLeft{
     display: block;
     padding: 10% 15%;
-    border: 1px solid black;
     border-radius: 3px;
+    box-shadow: 3px 3px 9px 0px #00000080;
 }
 
 .boxRight:hover, .boxLeft:hover{

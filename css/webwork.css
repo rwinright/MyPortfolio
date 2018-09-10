@@ -48,7 +48,14 @@ img{
 }
 
 @media only screen and (max-width: 768px){
-    img{
+    .image-section,img{
         display: none;
+    }
+    .project-card{
+        justify-content: center;
+    }
+    .project-title, .project-description, .project-link{
+        text-align: center;
+        display: block;
     }
 }
