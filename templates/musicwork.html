@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/css/webwork.css">
+<h1>Musical Projects</h1>
+ 
+<div class="project-card" ng-repeat="posts in $ctrl.musicPost">
+    <div class="left-project">
+        <h2 class="project-title">{{$ctrl.musicPost[$index].title}}</h2>
+        <p class="project-description">{{$ctrl.musicPost[$index].description}}</p>
+        <a class = "project-link" href="{{$ctrl.musicPost[$index].link}}">Take a look</a>
+    </div>
+    <div class="image-section">
+        <img src="{{$ctrl.musicPost[$index].img}}" alt="Album Cover">
+    </div>
+</div>

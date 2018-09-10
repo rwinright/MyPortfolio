@@ -37,7 +37,7 @@ h1{
     background-image: url('/img/concert.jpg');
     background-size: cover;
     background-position: center;
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

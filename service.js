@@ -15,11 +15,19 @@
             title: "Permanent Beauty",
             img: "http://via.placeholder.com/350x150",
             description: "Beauty Website made with Bootstrap, Express, Node, and MongoDB",
-            link:""
-        }];
+            link: ""
+        }]
+        
+        let musicPost = [{
+            title: "Blackgate",
+            img: "/img/blackgate.jpg",
+            description: "Power/Thrash Metal",
+            link: "https://blackgate.bandcamp.com/"
+        }]
 
         return{
-            post
+            post,
+            musicPost
         }
     }
 

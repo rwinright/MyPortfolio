@@ -19,6 +19,9 @@
         .when("/webwork", {
           template: "<webwork></webwork>",
         })
+        .when("/musicwork", {
+          template: "<musicWork></musicWork>",
+        })
         .otherwise({ redirectTo: "/" });
     });
 }
