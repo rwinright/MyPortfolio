@@ -6,11 +6,13 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 20px auto;
     border: 1px solid black;
     width: 90%; 
 }
 .project-title{
+    margin-top: 0;
     margin-left: 5%;
 }
 
