@@ -4,7 +4,7 @@
         templateUrl: `/templates/musicwork.html`,
         controller: function (service) {
             let vm = this;
-            vm.musicPost = service.musicpost;
+            vm.musicPost = service.musicPost;
             console.log(service.musicPost);
         }
     }

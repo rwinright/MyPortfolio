@@ -17,11 +17,11 @@
             description: "Beauty Website made with Bootstrap, Express, Node, and MongoDB",
             link: ""
         }]
-        
+
         let musicPost = [{
             title: "Blackgate",
             img: "/img/blackgate.jpg",
-            description: "Power/Thrash Metal",
+            description: "Power/Thrash Metal from Grand Rapids, MI",
             link: "https://blackgate.bandcamp.com/"
         }]
 

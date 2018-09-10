@@ -19,11 +19,16 @@ h1{
 }
 
 .left-project{
-    display: inline;
+    display: block;
 }
 
 .project-link{
     margin-left: 8%;
+}
+.image-section{
+    height: auto;
+    width: 20%;
+    display: inline;
 }
 
 .project-card:hover{
@@ -31,5 +36,7 @@ h1{
 }
 
 img{
-    
+    max-width:99%;
+    max-height: 99%;    
+
 }
