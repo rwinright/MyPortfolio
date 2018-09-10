@@ -21,7 +21,7 @@
         let musicPost = [{
             title: "Blackgate",
             img: "/img/blackgate.jpg",
-            description: "Power/Thrash Metal from Grand Rapids, MI",
+            description: "Guitarist of Power/Thrash Metal band from Grand Rapids, MI",
             link: "https://blackgate.bandcamp.com/"
         }]
 
