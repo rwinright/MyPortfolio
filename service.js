@@ -16,6 +16,12 @@
             img: "http://via.placeholder.com/350x150",
             description: "Beauty Website made with Bootstrap, Express, Node, and MongoDB",
             link: ""
+        },
+        {
+            title: "Roggit",
+            img: "http://via.placeholder.com/350x150",
+            description: "Reddit clone website with jQuery",
+            link: "https://venpresath.github.io/reddit-clone/"
         }]
 
         let musicPost = [{
