@@ -16,10 +16,10 @@
         .when("/work", {
           template: "<work></work>",
         })
-        .when("/webwork", {
+        .when("/work/webwork", {
           template: "<webwork></webwork>",
         })
-        .when("/musicwork", {
+        .when("/work/musicwork", {
           template: "<musicWork></musicWork>",
         })
         .otherwise({ redirectTo: "/" });
