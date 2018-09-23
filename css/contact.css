@@ -8,6 +8,17 @@ h1{
     border: 1px solid black;
 }
 
+h2{
+    text-align: center;
+}
+
 .container>p{
     text-align: center;
+    margin: 8px 0px;
+    display: inline;
+}
+
+i{
+    font-size: 1.4rem;
+    margin-right: 4px;
 }
