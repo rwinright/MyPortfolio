@@ -13,10 +13,10 @@ h1{
 
 .content{
     width: 60%;
+    text-align: justify;
 }
 
 .container>p{
-    text-align: center;
     margin: 10px auto;
 }
 
