@@ -1,37 +1,31 @@
 'use strict';
 {
-    function service() { 
+    function service() {
         let post = [{
+            title: "Movie DB Project",
+            img: "http://via.placeholder.com/350x150",
+            description: "Movie database website created with AngularJS, used a movie API database for the results",
+            link: "https://venpresath.github.io/Angular-Project/"
+        },{
             title: "World's Best Workbench",
             img: "http://via.placeholder.com/350x150",
             description: "Small business website that I am currently working on. Utilizing AngularJS",
-            link:""
-        },{
-            title: "Songsmash",
-            img: "http://via.placeholder.com/350x150",
-            description: "Comprehensive lyric guessing game. Made using AngularJS, Musixmatch API, and a little jQuery",
-            link:"https://www.songsmash.ga"
-        },{
-            title: "Permanent Beauty",
-            img: "http://via.placeholder.com/350x150",
-            description: "Beauty Website made with Bootstrap, Express, Node, and MongoDB",
             link: ""
-        },
-        {
+        },{
             title: "Roggit",
             img: "http://via.placeholder.com/350x150",
-            description: "Reddit clone website with jQuery",
+            description: "Simple Reddit clone website with jQuery",
             link: "https://venpresath.github.io/reddit-clone/"
-        }]
+        }];
 
         let musicPost = [{
             title: "Blackgate",
             img: "/img/blackgate.jpg",
             description: "Guitarist of Power/Thrash Metal band from Grand Rapids, MI",
             link: "https://blackgate.bandcamp.com/"
-        }]
+        }];
 
-        return{
+        return {
             post,
             musicPost
         }
