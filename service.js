@@ -13,6 +13,11 @@
             img: "/img/blackgate.jpg",
             description: "Guitarist of Power/Thrash Metal band from Grand Rapids, MI",
             link: "https://blackgate.bandcamp.com/"
+        },{
+            title: "In Secrecy",
+            img: "http://via.placeholder.com/350x150",
+            description: "Guitarist of Power Metal band from Grand Rapids, MI",
+            link: "/"
         }];
 
         return {
