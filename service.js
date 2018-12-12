@@ -6,6 +6,11 @@
             img: "http://via.placeholder.com/350x150",
             description: "Cannabis career website created with React, SCSS, and Meteor",
             link: "https://handgrown.jobs/home"
+        },{
+            title: "Songsmash",
+            img: "http://via.placeholder.com/350x150",
+            description: "Lyric guessing game made with AngularJS, CSS, jQuery, and HTML5",
+            link: "https://songsmash.ga"
         }];
 
         let musicPost = [{
@@ -18,6 +23,11 @@
             img: "http://via.placeholder.com/350x150",
             description: "Guitarist of Power Metal band from Grand Rapids, MI",
             link: "/"
+        },{
+            title: "Krigen I Nord",
+            img: "http://via.placeholder.com/350x150",
+            description: "Vocalist of Black Metal band from Grand Rapids, MI",
+            link: "https://www.youtube.com/watch?v=O60QCNbyK44"
         }];
 
         return {
