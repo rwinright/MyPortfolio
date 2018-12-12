@@ -17,17 +17,20 @@
             title: "Blackgate",
             img: "/img/blackgate.jpg",
             description: "Guitarist of Power/Thrash Metal band from Grand Rapids, MI",
-            link: "https://blackgate.bandcamp.com/"
+            link: "https://blackgate.bandcamp.com/",
+            isVideo: false
         },{
             title: "In Secrecy",
             img: "http://via.placeholder.com/350x150",
             description: "Guitarist of Power Metal band from Grand Rapids, MI",
-            link: "/"
+            link: "/",
+            isVideo: false
         },{
             title: "Krigen I Nord",
             img: "http://via.placeholder.com/350x150",
             description: "Vocalist of Black Metal band from Grand Rapids, MI",
-            link: "https://www.youtube.com/watch?v=O60QCNbyK44"
+            link: "https://www.youtube.com/watch?v=O60QCNbyK44",
+            isVideo: true
         }];
 
         return {

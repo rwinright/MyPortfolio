@@ -5,7 +5,8 @@
     <div class="left-project">
         <h2 class="project-title">{{$ctrl.musicPost[$index].title}}</h2>
         <p class="project-description">{{$ctrl.musicPost[$index].description}}</p>
-        <a class = "project-link" href="{{$ctrl.musicPost[$index].link}}">Take a look</a>
+        <a class = "project-link" href="{{$ctrl.musicPost[$index].link}}" ng-show="$ctrl.musicPost[$index].isVideo">Listen here</a>
+        <a class = "project-link" href="{{$ctrl.musicPost[$index].link}}" ng-hide="$ctrl.musicPost[$index].isVideo">Take a look</a>
     </div>
     <div class="image-section">
         <img src="{{$ctrl.musicPost[$index].img}}" alt="covers">
