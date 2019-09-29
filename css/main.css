@@ -1,7 +1,8 @@
 /* navigation */
-body{
+body, html{
     margin: 0;
     height: 100%;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
     background-color: white;
 }
@@ -17,6 +18,13 @@ a{
     justify-content: space-between;
     align-items: baseline;
     padding: 1%;
+}
+
+.construction-banner{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    margin: 0;
 }
 
 .navLinks{

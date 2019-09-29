@@ -3,14 +3,16 @@
     function service() {
         let post = [{
             title: "Handgrown Jobs",
-            img: "http://via.placeholder.com/350x150",
+            img: "../img/hgj-screenshot.png",
             description: "Cannabis career website created with React, SCSS, and Meteor",
+            myRole: "Full-Stack Development/Maintenance",
             link: "https://handgrown.jobs/home"
         },{
-            title: "Songsmash",
-            img: "http://via.placeholder.com/350x150",
-            description: "Lyric guessing game made with AngularJS, CSS, jQuery, and HTML5",
-            link: "https://songsmash.ga"
+            title: "Leimenstoll Services",
+            img: "../img/leimenstoll-screenshot.png",
+            description: "Workforce management application created in React Native and Meteor",
+            myRole: "Full-Stack Development/Maintenance",
+            link: "https://play.google.com/store/apps/details?id=com.rnleimenstoll"
         }];
 
         let musicPost = [{

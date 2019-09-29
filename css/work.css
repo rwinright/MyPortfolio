@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    background-color: whitesmoke;
+    margin: 0;
 }
 
 .boxContainer{
@@ -7,22 +9,27 @@ h1{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 10% 0%;
+    padding-top: 30px;
+    background-color: whitesmoke;
 }
 
-.boxRight,.boxLeft>h2{
+.box>h2{
     text-align: center;
     color: white;
 }
 
-.boxRight, .boxLeft{
-    display: block;
-    padding: 10% 15%;
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 3px;
     box-shadow: 3px 3px 9px 0px #00000080;
+    height: 30em;
+    width: 35em;
+    padding: 0 30px;
 }
 
-.boxRight:hover, .boxLeft:hover{
+.box:hover{
     transform: scale(1.1);
 }
 
