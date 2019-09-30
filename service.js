@@ -13,6 +13,12 @@
             description: "Workforce management application created in React Native and Meteor",
             myRole: "Full-Stack Development/Maintenance",
             link: "https://play.google.com/store/apps/details?id=com.rnleimenstoll"
+        },{
+            title: "Kid Icarus VS.",
+            img: "../img/kid-icarus-screenshot.png",
+            description: "Local multiplayer built for web using Phaser 3",
+            myRole: "Sole developer",
+            link: "https://stoic-swirles-f56bba.netlify.com/"
         }];
 
         let musicPost = [{

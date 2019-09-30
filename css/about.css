@@ -20,6 +20,11 @@ h1{
     margin: 10px auto;
 }
 
+.lfw{
+    color: red;
+    text-align: center;
+}
+
 img{
     height: auto;
     width: 30%;
