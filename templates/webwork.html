@@ -6,7 +6,7 @@
         <h2 class="project-title">{{$ctrl.post[$index].title}}</h2>
         <p class="project-description">{{$ctrl.post[$index].description}}</p>
         <p class="project-role">My role: {{$ctrl.post[$index].myRole}}</p>
-        <a class = "project-link" href="{{$ctrl.post[$index].link}}">Take a look</a>
+        <a class = "project-link" ng-show="{{$ctrl.post[$index].link}}" href="{{$ctrl.post[$index].link}}">Take a look</a>
     </div>
     <div class="image-section">
         <img src="{{$ctrl.post[$index].img}}" alt="">

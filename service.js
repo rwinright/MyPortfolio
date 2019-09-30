@@ -8,11 +8,29 @@
             myRole: "Full-Stack Development/Maintenance",
             link: "https://handgrown.jobs/home"
         },{
+            title: "City2Shore Real Estate",
+            img: "../img/c2S-screenshot.png",
+            description: "Company software for City2Shore; a real-estate franchise company. I had a hand in building onto the administration dashboard.",
+            myRole: "Full-Stack Development/Maintenance",
+            link: ""
+        },{
             title: "Leimenstoll Services",
             img: "../img/leimenstoll-screenshot.jpg",
             description: "Workforce management application created in React Native and Meteor",
             myRole: "Full-Stack Development/Maintenance",
             link: "https://play.google.com/store/apps/details?id=com.rnleimenstoll"
+        },{
+            title: "Hillman Advocacy Group",
+            img: "../img/hillman-screenshot.png",
+            description: "The primary app of an annual training program for trial lawyers. My role was to build onto the video editor used to submit video feedback on the lawyer's performance.",
+            myRole: "Maintenance & Upgrading",
+            link: "https://play.google.com/store/apps/details?id=com.hillmanapp"
+        },{
+            title: "Ninja Take Back",
+            img: "../img/ninja-screenshot.png",
+            description: "Local multiplayer HTML5 canvas game built for the js13k tournament. It uses a Kontra as its game engine",
+            myRole: "Designer/Developer",
+            link: "https://stupefied-stallman-c32e1b.netlify.com"
         },{
             title: "Kid Icarus VS.",
             img: "../img/kid-icarus-screenshot.png",

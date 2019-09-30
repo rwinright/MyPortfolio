@@ -25,6 +25,7 @@ h1{
 
 .left-project{
     display: block;
+    flex: 1;
 }
 
 .project-link{
