@@ -8,8 +8,10 @@ h1{
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
+    padding: 10px;
     border: 1px solid black;
-    width: 90%; 
+    max-width: 90%;
+    border-radius: 5px;
 }
 .project-title{
     text-shadow: 2px 2px #00000029;
@@ -34,12 +36,8 @@ h1{
 
 .image-section{
     height: auto;
-    width: 20%;
-    display: inline;
-}
-
-.project-card:hover{
-    transform: scale(1.1);
+    width: 30%;
+    margin: 15px;
 }
 
 img{
@@ -54,7 +52,7 @@ img{
     .project-card{
         justify-content: center;
     }
-    .project-title, .project-description, .project-link{
+    .project-title, .project-description, .project-link, .project-role{
         text-align: center;
         display: block;
     }

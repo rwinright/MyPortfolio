@@ -9,7 +9,7 @@
             link: "https://handgrown.jobs/home"
         },{
             title: "Leimenstoll Services",
-            img: "../img/leimenstoll-screenshot.png",
+            img: "../img/leimenstoll-screenshot.jpg",
             description: "Workforce management application created in React Native and Meteor",
             myRole: "Full-Stack Development/Maintenance",
             link: "https://play.google.com/store/apps/details?id=com.rnleimenstoll"
