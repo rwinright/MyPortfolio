@@ -96,7 +96,6 @@ a{
 
 .card:hover{
     transform: scale(1.1);
-    background: linear-gradient(to right, white 1%, #210f43 100%);
 }
 
 .card:active{
