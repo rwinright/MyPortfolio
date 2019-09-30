@@ -18,9 +18,12 @@
         <div class="logo">
             <a href="#!/">RW</a>
         </div>
-        <div>
-            <div>
-                <p class="construction-banner">Under construction</p>
+        <div class="construction-button" ng-click="showModal = !showModal" ng-init="showModal = false">
+            <p class="construction-banner">Under construction</p>
+        </div>
+        <div class="info-modal-container" ng-show="showModal">
+            <div class="info-modal">
+                <p>I'm currently in the process of migrating this website over to something a little more modern looking, much fancier UI with animations, built on React, and it'll even have a blog!</p>
             </div>
         </div>
         <div class="navLinks">
