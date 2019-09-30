@@ -14,6 +14,12 @@
             myRole: "Full-Stack Development/Maintenance",
             link: ""
         },{
+            title: "MiLife",
+            img: "../img/milife-screenshot.png",
+            description: "A sports league management web app. This was created using Meteor and React.js",
+            myRole: "Front-end Development",
+            link: ""
+        },{
             title: "Leimenstoll Services",
             img: "../img/leimenstoll-screenshot.jpg",
             description: "Workforce management application created in React Native and Meteor",
