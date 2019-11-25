@@ -43,6 +43,12 @@
             description: "Local multiplayer built for web using Phaser 3",
             myRole: "Sole developer",
             link: "https://stoic-swirles-f56bba.netlify.com/"
+        },{
+            title: "JS Invaders",
+            img: "../img/swatch.png",
+            description: "An arcade-style space-shooter game based on training newer developers for quick acquisition of programming logic outcomes through micro-sized coding questions. Built to show functional programming in game development for the students of the Grand Circus coding bootcamp",
+            myRole: "Sole developer",
+            link: "https://eloquent-hypatia-cf6312.netlify.com/"
         }];
 
         let musicPost = [{
