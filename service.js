@@ -34,7 +34,7 @@
         },{
             title: "Ninja Take Back",
             img: "../img/ninja-screenshot.png",
-            description: "Local multiplayer HTML5 canvas game built for the js13k tournament. It uses a Kontra as its game engine",
+            description: "Local multiplayer HTML5 canvas game built for the js13k game jam. It uses a Kontra as its game engine",
             myRole: "Designer/Developer",
             link: "https://stupefied-stallman-c32e1b.netlify.com"
         },{
