@@ -145,4 +145,9 @@ a {
   .card {
     margin-bottom: 2%;
   }
+  .construction-banner{
+    position: absolute;
+    width: auto;
+    top: 36px;
+  }
 }
