@@ -39,11 +39,12 @@ h1{
     height: auto;
     width: 30%;
     margin: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 img{
-    max-width:99%;
-    max-height: 99%;    
+    max-width:200px;
 }
 
 @media only screen and (max-width: 768px){
