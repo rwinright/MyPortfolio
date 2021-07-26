@@ -1,12 +1,6 @@
 'use strict'; {
     function service() {
-        let post = [{
-            title: "Handgrown Jobs",
-            img: "../img/hgj-screenshot.png",
-            description: "Cannabis career website created with React, SCSS, and Meteor",
-            myRole: "Full-Stack Development/Maintenance",
-            link: "https://handgrown.jobs/home"
-        }, {
+        let post = [ {
             title: "City2Shore Real Estate",
             img: "../img/c2S-screenshot.png",
             description: "Company software for City2Shore; a real-estate franchise company. I had a hand in building onto the administration dashboard.",
