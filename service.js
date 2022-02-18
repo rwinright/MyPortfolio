@@ -9,7 +9,7 @@
         },
         {
             title: "Action Trucks",
-            img: "../img/c2S-screenshot.png",
+            img: "../img/tree.png",
             description: "This app is built for Canada's largest aftermarket automotive retailer. It was built using React Native and a custom PHP framework built in-house.",
             myRole: "Full-Stack Development/Maintenance",
             link: "https://play.google.com/store/apps/details?id=com.actiontrucks.app"
