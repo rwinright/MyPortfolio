@@ -1,20 +1,20 @@
 'use strict'; {
     function service() {
-        const post = [ {
+        const post = [{
             title: "City2Shore Real Estate",
             img: "../img/c2S-screenshot.png",
             description: "Company software for City2Shore; a real-estate franchise company. I had a hand in building onto the administration dashboard.",
             myRole: "Full-Stack Development/Maintenance",
             link: ""
-        }, 
-{
+        },
+        {
             title: "Action Trucks",
             img: "../img/c2S-screenshot.png",
             description: "This app is built for Canada's largest aftermarket automotive retailer. It was built using React Native and a custom PHP framework built in-house.",
             myRole: "Full-Stack Development/Maintenance",
-            link: ""
-        }
-{
+            link: "https://play.google.com/store/apps/details?id=com.actiontrucks.app"
+        },
+        {
             title: "MiLife",
             img: "../img/milife-screenshot.png",
             description: "A sports league management web app. This was created using Meteor and React.js",
